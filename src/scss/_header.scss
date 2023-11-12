@@ -1,0 +1,74 @@
+@import 'variables';
+
+.header {
+  width: 100%;
+  min-height: 96rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.nav-logo-icon {
+  margin-left: 175rem;
+  max-width: 144rem;
+  color: #081F32;
+  flex-shrink: 0;
+  padding-top: 15rem;
+
+  /* Subheading / Base */
+  font-family: Gelasio;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 36px */
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 40rem;
+  margin-top: 30rem;
+}
+
+.nav-menu-link {
+  display: flex;
+  text-decoration: none;
+  color: $text-color-1;
+  font: 500 16rem Gelasio, sans-serif;
+  line-height: 150%; /* 24px */
+  opacity: 0.7;
+
+  &.nav-menu-link:hover {
+    color: #1B75BB;
+    transition: .5s;
+  }
+}
+
+li {
+  list-style: none;
+}
+
+.button-main {
+  min-width: 134rem;
+  min-height: 54rem;
+  background: $text-color-2;
+  border: 0;
+  border-radius: 5rem;
+
+}
+
+.book-button {
+  background: $text-color-2;
+  padding: 15rem 30rem;
+  border: 0;
+  color: #FFF;
+  font: 500 16rem Gelasio, sans-serif;
+  line-height: 150%; /* 24px */
+  transition: .7s;
+}
+
+.book-button:hover {
+  color: $text-color-1;
+  transition: .7s;
+}
+

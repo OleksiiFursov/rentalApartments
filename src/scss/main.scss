@@ -1,0 +1,42 @@
+@use '../../node_modules/@crossfox/css-start/dist/base.min.css';
+@import 'header';
+@import 'main-subsection';
+@import 'about';
+@import 'services';
+@import 'gallery';
+@import 'subscribe';
+@import 'footer';
+
+html {
+  font-size: .058vw;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.flex{
+  display: flex;
+}
+
+.flex-between {
+  @extend .flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-col {
+  display:flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  max-width: 1440rem;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+

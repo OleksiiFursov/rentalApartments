@@ -1,0 +1,41 @@
+.gallery-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30rem;
+  padding-bottom: 130rem;
+}
+
+.gallery-title h3 {
+  color: #081F32;
+
+  /* Heading / Base */
+  font-family: Gelasio;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 44.8px */
+  padding-bottom: 25rem;
+}
+
+.gallery-title p {
+  width: 439rem;
+  color: #081F32;
+  padding-bottom: 30rem;
+  margin-right: 58rem;
+
+  /* Body / Base */
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 28.8px */
+  opacity: .6;
+}
+
+.gallery-title img {
+  max-width: 555px;
+  min-height: 337px;
+  flex-shrink: 0;
+}
