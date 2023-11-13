@@ -1,83 +1,82 @@
-.services-title {
-display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 57px 138px 84px 145px;
+@import 'variables';
+
+.services {
+  margin-bottom: 44rem;
 
 }
 
+.services-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .services-title h2 {
+  color: $text-color-1;
+  padding-top: 57rem;
   padding-bottom: 25rem;
-  width: 295rem;
-  color: #081F32;
-  /* Heading / Base */
-  font-family: Gelasio;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 500;
+  font: 500 32rem Gelasio, sans-serif;
   line-height: 140%; /* 44.8px */
 }
 
 .services-title p {
-  width: 918rem;
+  color: $text-color-1;
+  font: 400 18rem Roboto, sans-serif;
+  width: 819rem;
   padding-bottom: 60rem;
-  color: #081F32;
   text-align: center;
-
-  /* Body / Base */
-  font-family: Roboto;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 160%; /* 28.8px */
+  line-height: 1.5; /* 28.8px */
   opacity: .6;
 }
 
 .services-items {
-
   display: flex;
-  align-items: center;
-  justify-content: center;
+  max-width: 100%;
   gap: 30rem;
   margin: 0;
-  padding: 0;
+  padding-bottom: 47rem;
 }
 
 .services-item {
   width: 262rem;
+  max-height: 258rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-radius: 5px;
+  border: 1px solid rgba(199, 199, 199, 0.25);;
+  //opacity: 0.1;
+  background: #FFF;
+  box-shadow: 0 4px 30px 0 rgba(199, 199, 199, 0.25);
+  transition: .7s;
+}
+
+.services-item:hover {
+  cursor: pointer;
+  box-shadow: 1.5rem 1.5rem 1.5rem 1.5rem black;
+  transition: .5s;
 }
 
 .services-item img {
   width: 74rem;
   height: 69.519rem;
+  margin-top: 21rem;
 }
 
 .services-item h3 {
-  color: #081F32;
+  color: $text-color-1;
+  font: 500 24rem Gelasio, sans-serif;
   text-align: center;
   padding-top: 40rem;
-
-  /* Subheading / Base */
-  font-family: Gelasio;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 150%; /* 36px */
+  padding-bottom: 0;
+  line-height: 1.25;
 }
 
 .services-item p {
-  width: 228rem;
-  color: #081F32;
-  padding-top: 15rem;
+  color: $text-color-1;
+  font: 400 18rem Roboto, sans-serif;
+  width: 262rem;
+  padding: 15rem 17rem 17.59rem;
   text-align: center;
-  /* Body / Base */
-  font-family: Roboto;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 160%; /* 28.8px */
+  line-height: 1.25; /* 28.8px */
 }

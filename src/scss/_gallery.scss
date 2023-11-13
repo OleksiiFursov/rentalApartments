@@ -1,41 +1,86 @@
+@import 'variables';
+
+
 .gallery-main {
+  width: 100%;
+  max-width: 1140rem;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 30rem;
   padding-bottom: 130rem;
 }
 
-.gallery-title h3 {
-  color: #081F32;
+.gallery-item {
+  position: relative;
 
-  /* Heading / Base */
-  font-family: Gelasio;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 140%; /* 44.8px */
+  & .gallery-item-img {
+    width: 555rem;
+    height: 337rem;
+  }
+
+  & .gallery-item-content {
+    width: 100%;
+    max-width: 231rem;
+    min-height: 126rem;
+    position: absolute;
+    border-radius: 10rem;
+    bottom: 0;
+    left: 0;
+    backdrop-filter: blur(5rem);
+    background: rgba(226, 226, 226, .4);
+  }
+  & .gallery-item-content h3 {
+    color: #081F32;
+    padding: 24rem 25rem 10rem 25rem;
+    font: 500 16rem Roboto, sans-serif;
+    line-height: 1.4; /* 28.8px */
+  }
+
+  & .gallery-item-content p {
+    color: #081F32;
+    padding: 24rem 25rem 10rem 0;
+    font: 500 14rem Roboto, sans-serif;
+    line-height: 1.25 /* 22.4px */
+  }
+}
+
+.gallery-item-content-info {
+  display: flex;
+  align-items: center;
+}
+
+.gallery-title h3 {
+  color: $text-color-1;
+  font: 500 32rem Gelasio, sans-serif;
+  line-height: 1.4;
   padding-bottom: 25rem;
 }
 
 .gallery-title p {
   width: 439rem;
-  color: #081F32;
+  color: $text-color-1;
+  font: 400 18rem Roboto, sans-serif;
+  //margin-right: 58rem;
   padding-bottom: 30rem;
-  margin-right: 58rem;
-
-  /* Body / Base */
-  font-family: Roboto;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 160%; /* 28.8px */
+  line-height: 1.25;
   opacity: .6;
 }
 
-.gallery-title img {
-  max-width: 555px;
-  min-height: 337px;
-  flex-shrink: 0;
+
+.btn-sm {
+  display: inline-flex;
+  padding: 10px 20px;
+  align-items: flex-start;
+  gap: 10px;
+  color: #FFF;
+  font-family: Gelasio;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 21px */
+  margin-left: 25rem;
+  //margin-bottom: 23rem;
 }

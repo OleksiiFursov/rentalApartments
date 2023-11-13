@@ -9,11 +9,9 @@
   max-width: 144rem;
 }
 
-
 .footer-title {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   gap: 30rem;
   padding-left: 175rem;
   padding-top: 70rem;
@@ -23,11 +21,8 @@
   width: 257rem;
   padding-bottom: 30rem;
   color: #081F32;
-  font-family: Poppins;
-  font-size: 18rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 150%; /* 27px */
+  font: 400 18rem Poppins, sans-serif;
+  line-height: 1.25; /* 27px */
   opacity: .7;
 }
 

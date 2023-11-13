@@ -4,23 +4,15 @@
   width: 100%;
   min-height: 96rem;
   position: fixed;
-  top: 0;
+  top: 3.5%;
   left: 0;
 }
 
 .nav-logo-icon {
-  margin-left: 175rem;
   max-width: 144rem;
-  color: #081F32;
-  flex-shrink: 0;
-  padding-top: 15rem;
-
-  /* Subheading / Base */
-  font-family: Gelasio;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 150%; /* 36px */
+  color: $text-color-1;
+  font: 500 24rem Gelasio, sans-serif;
+  line-height: 1.5;
 }
 
 .nav-menu {
@@ -35,8 +27,9 @@
   text-decoration: none;
   color: $text-color-1;
   font: 500 16rem Gelasio, sans-serif;
-  line-height: 150%; /* 24px */
+  line-height: 1.5;
   opacity: 0.7;
+  transition: .5s;
 
   &.nav-menu-link:hover {
     color: #1B75BB;
@@ -48,26 +41,20 @@ li {
   list-style: none;
 }
 
-.button-main {
-  min-width: 134rem;
-  min-height: 54rem;
-  background: $text-color-2;
-  border: 0;
-  border-radius: 5rem;
 
-}
-
-.book-button {
+.btn {
+  display: inline-flex;
+  padding: 15px 30px;
   background: $text-color-2;
-  padding: 15rem 30rem;
-  border: 0;
+  align-items: flex-start;
+  gap: 10px;
   color: #FFF;
   font: 500 16rem Gelasio, sans-serif;
-  line-height: 150%; /* 24px */
-  transition: .7s;
+  line-height: 1.5;
+  border-radius: 5rem;
 }
 
-.book-button:hover {
+.btn:hover {
   color: $text-color-1;
   transition: .7s;
 }

@@ -1,3 +1,5 @@
+@import 'variables';
+
 .about {
   min-height: 662rem;
 }
@@ -11,33 +13,27 @@
 }
 
 .about-title {
-  margin-top: 240rem;
-  margin-left: 45rem;
+  padding-top: 240rem;
+  padding-left: 45rem;
 }
 
 .about-title h4 {
-  padding-bottom: 15rem;
   color: #1B75BB;
-  font-family: Roboto;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
+  font: 500 20rem Robot,sans-serif;
+  padding-bottom: 15rem;
   line-height: 150%; /* 30px */
-  letter-spacing: 2px;
+  letter-spacing: 2rem;
   text-transform: uppercase;
   opacity: .8;
 }
 
-.about-title h3 {
+.about-title h2 {
   width: 436rem;
-  color: #081F32;
+  color: $text-color-1;
   padding-bottom: 30rem;
   /* Heading / Base */
-  font-family: Gelasio;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 140%; /* 44.8px */
+  font: 500 33rem Gelasio, sans-serif;
+  line-height: 1.25; /* 44.8px */
 }
 
 

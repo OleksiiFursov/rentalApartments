@@ -23,9 +23,7 @@
             <li><a class="nav-menu-link" href="#">Testimonials </a></li>
          </ul>
       </nav>
-         <button class="button-main" type="button">
-            <a class="book-button" href="tel:+4733378901">Book now</a>
-         </button>
+            <a class="btn" href="tel:+4733378901">Book now</a>
    </div>
 </header>
 
@@ -34,22 +32,22 @@
     <div class="main-title">
         <h4>serenity</h4>
         <h1>Stay with us feel like <span>home</span>.</h1>
-        <p>Pet-friendly hotels are becoming increasingly popular; appealing to travellers who can’t bear to be parted.</p>
-        <button class="button-main tittle-btn" type="button">
-            <a class="book-button" href="#">Read more</a>
-        </button>
+        <p>Pet-friendly hotels are becoming increasingly popular appealing to travellers who can’t bear to be parted.</p>
+        <a class="btn" href="#">Read more</a>
     </div>
     </div>
 </section>
     <section class="about">
     <div class="container flex">
-        <div class="about-player"></div>
+        <div class="about-player">
+
+        </div>
+
+<!--        Right side of about section -->
         <div class="about-title">
             <h4>dream holidays</h4>
-            <h3>Enjoy unforgettable experiences in dream hotels.</h3>
-            <button class="button-main" type="button">
-                <a class="book-button" href="#">View more</a>
-            </button>
+            <h2>Enjoy unforgettable experiences in dream hotels.</h2>
+            <a class="btn" href="#">View more</a>
         </div>
     </div>
 </section>
@@ -93,15 +91,57 @@
                 <p>While some of these examples are real – actually offering guests a stay in the locations advertised
                     – it’s mainly just a way.
                 </p>
-                <button class="button-main" type="button">
-                    <a class="book-button" href="#">View more</a>
-                </button>
+                <a class="btn" href="#">View more</a>
             </div>
-            <img src="/img/lux-room.jpg" alt="lux room">
-            <img src="/img/mini-room.jpg" alt="lux room">
-            <img src="/img/stande-room.jpg" alt="lux room">
-            <img src="/img/single-room.jpg" alt="lux room">
-            <img src="/img/elite-room.jpg" alt="lux room">
+            <article class="gallery-item">
+                <img class="gallery-item-img" src="/img/lux-room.jpg" alt="lux room">
+                <div class="gallery-item-content">
+                    <div class="gallery-item-content-info">
+                        <h3>Lux Room</h3>
+                        <p>$60 night</p>
+                    </div>
+                        <a class='btn btn-sm' href="#">Book now</a>
+                </div>
+            </article>
+            <article class='gallery-item'>
+                <img class="gallery-item-img" src="/img/mini-room.jpg" alt="Mini room">
+                <div class="gallery-item-content">
+                    <div class="gallery-item-content-info">
+                    <h3>Mini Room</h3>
+                    <p>$70 night</p>
+                    </div>
+                    <a class='btn btn-sm' href="#">Book now</a>
+            </article>
+            <article class='gallery-item'>
+                <img class="gallery-item-img" src="/img/stande-room.jpg" alt="Stande room">
+                <div class="gallery-item-content">
+                    <div class="gallery-item-content-info">
+                    <h3>Stande Room</h3>
+                    <p>$65 night</p>
+                    </div>
+                    <a class='btn btn-sm' href="#">Book now</a>
+                </div>
+            </article>
+            <article class='gallery-item'>
+                <img class="gallery-item-img" src="/img/single-room.jpg" alt="Single room">
+                <div class="gallery-item-content">
+                    <div class="gallery-item-content-info">
+                    <h3>Single Room</h3>
+                    <p>$55 night</p>
+                    </div>
+                    <a class='btn btn-sm' href="#">Book now</a>
+                </div>
+            </article>
+            <article class='gallery-item'>
+                <img class="gallery-item-img" src="/img/elite-room.jpg" alt="Elite room">
+                <div class="gallery-item-content">
+                    <div class="gallery-item-content-info">
+                    <h3>Elite Room</h3>
+                    <p>$65 night</p>
+                    </div>
+                    <a class='btn btn-sm' href="#">Book now</a>
+                </div>
+            </article>
         </div>
     </div>
 </section>
@@ -109,15 +149,14 @@
     <div class="container">
         <div class="subscribe-main">
         <h3>STAY IN TOUCH</h3>
-        <h2>Join our email. First to know about specials,events and more!</h2>
-            <span class="subscribe-main-input">
-            <label for="email">
-                <input type="email" id="email" placeholder="Enter your email address">
-            </label>
-            <button class="button-subscribe" type="button">
-                <a class="subscribe-button-link" href="">Subscribe</a>
-            </button>
-            </span>
+        <h2>Follow us. First to know about specials,events and more!</h2>
+            <div class="subscribe-main-icons">
+                <img src="/img/google-mail-icon.svg" alt="gmail">
+                <img src="/img/google-maps-icon.svg" alt="gmail">
+                <img src="/img/whatsapp-icon.svg" alt="gmail">
+                <img src="/img/instagram-icon.svg" alt="gmail">
+                <img src="/img/telegram-icon.svg" alt="gmail">
+            </div>
          </div>
     </div>
 </section>
@@ -146,17 +185,17 @@
 			<li>Communing</li>
 		</ul>
 		</div>
-		<div>
-			<h3>SUBSCRIBE</h3>
-			<span class="subscribe-main-input">
-           	 <label for="email">
-                <input class='footer-input' type="email" id="email" placeholder="Enter your email address">
-           	 </label>
-           	 <button class="button-subscribe" type="button">
-                <a class="subscribe-button-link" href="">Subscribe</a>
-           	 </button>
-			</span>
-		</div>
+<!--		<div>-->
+<!--			<h3>SUBSCRIBE</h3>-->
+<!--			<span class="subscribe-main-input">-->
+<!--           	 <label for="email">-->
+<!--                <input class='footer-input' type="email" id="email" placeholder="Enter your email address">-->
+<!--           	 </label>-->
+<!--           	 <button class="button-subscribe" type="button">-->
+<!--                <a class="subscribe-button-link" href="">Subscribe</a>-->
+<!--           	 </button>-->
+<!--			</span>-->
+<!--		</div>-->
 		</div>
 	</div>
 </footer>

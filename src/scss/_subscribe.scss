@@ -80,3 +80,15 @@
   color: $text-color-1;
   transition: .7s;
 }
+
+.subscribe-main-icons {
+  display: flex;
+  gap: 50rem;
+  margin-top: 50rem;
+  margin-bottom: 124rem;
+}
+
+.subscribe-main img {
+  width: 60rem;
+  height: 60rem;
+}
