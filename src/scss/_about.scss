@@ -4,7 +4,7 @@
   min-height: 662rem;
 }
 .about-player {
-  width: 765px;
+  width: 765rem;
   height: 459rem;
   display: inline-flex;
   padding: 84px 21px 0 66px;
@@ -19,9 +19,9 @@
 
 .about-title h4 {
   color: #1B75BB;
-  font: 500 20rem Robot,sans-serif;
+  font: 500 20rem/1.5 Robot, sans-serif;
   padding-bottom: 15rem;
-  line-height: 150%; /* 30px */
+  /*line-height: 1.5;*/ /* 30px */
   letter-spacing: 2rem;
   text-transform: uppercase;
   opacity: .8;
@@ -32,8 +32,8 @@
   color: $text-color-1;
   padding-bottom: 30rem;
   /* Heading / Base */
-  font: 500 33rem Gelasio, sans-serif;
-  line-height: 1.25; /* 44.8px */
+  font: 500 33rem/1.25 Gelasio, sans-serif;
+  /*line-height: 1.25; */ /* 44.8px */
 }
 
 
